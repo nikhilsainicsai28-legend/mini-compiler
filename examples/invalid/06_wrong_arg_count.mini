@@ -1,0 +1,5 @@
+// Semantic error: add() expects 2 arguments, only 1 given
+func add(a, b) {
+    return a + b;
+}
+let result = add(5);

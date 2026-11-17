@@ -1,0 +1,20 @@
+// functions.mini - function declarations, calls, and return values
+func add(a, b) {
+    return a + b;
+}
+
+func square(x) {
+    return x * x;
+}
+
+let result = add(10, 20);
+print(result);
+
+let sq = square(6);
+print(sq);
+
+// functions calling other functions
+func sumOfSquares(a, b) {
+    return square(a) + square(b);
+}
+print(sumOfSquares(3, 4));

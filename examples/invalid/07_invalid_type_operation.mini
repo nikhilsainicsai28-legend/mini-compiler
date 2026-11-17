@@ -1,0 +1,2 @@
+// Semantic error: cannot subtract a number from a string
+let result = "hello" - 10;

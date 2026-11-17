@@ -1,0 +1,22 @@
+// arithmetic.mini - basic variables and arithmetic operators
+let x = 10;
+let y = 20;
+
+let sum = x + y;
+let difference = x - y;
+let product = x * y;
+let quotient = y / x;
+let remainder = y % x;
+
+print(sum);
+print(difference);
+print(product);
+print(quotient);
+print(remainder);
+
+// nested expression with parentheses
+let a = 1;
+let b = 2;
+let c = 3;
+let result = (a + b) * c;
+print(result);

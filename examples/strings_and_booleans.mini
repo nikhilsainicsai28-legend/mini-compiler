@@ -1,0 +1,14 @@
+// strings_and_booleans.mini - string, boolean data types
+let name = "Alice";
+let greeting = "Hello, " + name + "!";
+print(greeting);
+
+let isStudent = true;
+let hasGraduated = false;
+
+if (isStudent && !hasGraduated) {
+    print("Currently studying");
+}
+
+print(isStudent == true);
+print(1 == 1.0);

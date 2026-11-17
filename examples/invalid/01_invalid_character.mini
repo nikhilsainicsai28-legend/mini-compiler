@@ -1,0 +1,3 @@
+// Lexical error: '@' is not a valid MiniLang character
+let x = 10;
+let y = @;

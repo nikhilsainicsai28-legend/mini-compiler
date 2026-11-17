@@ -1,0 +1,54 @@
+// MiniLang Comprehensive Demonstration
+// Covers arithmetic, strings, booleans, loops, and recursive functions
+
+print("=== MiniLang Comprehensive Demo ===");
+
+// 1. Variables and types
+let greeting = "Hello, MiniLang!";
+let pi = 3.14159;
+let count = 3;
+let isReady = true;
+
+print(greeting);
+print("Testing arithmetic:");
+let circleCircumference = 2 * pi * 5;
+print(circleCircumference);
+
+// 2. Control flow: if / else
+if (isReady && count > 0) {
+    print("System status: ACTIVE");
+} else {
+    print("System status: IDLE");
+}
+
+// 3. Loops: while loop
+print("Countdown loop:");
+let counter = count;
+while (counter > 0) {
+    print(counter);
+    counter = counter - 1;
+}
+print("Blast off!");
+
+// 4. Recursive functions: Factorial and GCD (Euclid's algorithm)
+func factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+func gcd(a, b) {
+    if (b == 0) {
+        return a;
+    }
+    return gcd(b, a % b);
+}
+
+print("Factorial of 6:");
+print(factorial(6)); // 720
+
+print("GCD of 48 and 18:");
+print(gcd(48, 18));  // 6
+
+print("=== Demo Completed Successfully ===");

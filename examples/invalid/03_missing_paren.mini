@@ -1,0 +1,5 @@
+// Syntax error: missing closing parenthesis on if condition
+let x = 10;
+if (x > 5 {
+    print(x);
+}

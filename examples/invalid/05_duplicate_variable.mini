@@ -1,0 +1,3 @@
+// Semantic error: 'x' declared twice in the same scope
+let x = 10;
+let x = 20;

@@ -1,0 +1,12 @@
+# MiniLang Compiler has ZERO third-party dependencies.
+#
+# It is written entirely in Python 3 using only the standard library
+# (argparse, enum, io, unittest, contextlib, sys, os). No parser
+# generators (PLY/ANTLR/Lark/yacc/lex) and no external packages are used,
+# by design, so that the lexer and parser genuinely demonstrate hand-written
+# Compiler Design concepts.
+#
+# Requirement: Python >= 3.8
+#
+# To install here - `pip install -r requirements.txt` will simply .
+streamlit>=1.30.0

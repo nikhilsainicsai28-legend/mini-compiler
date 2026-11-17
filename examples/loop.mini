@@ -1,0 +1,16 @@
+// loop.mini - while loop
+let x = 0;
+
+while (x < 10) {
+    print(x);
+    x = x + 1;
+}
+
+// sum of first 5 natural numbers using a loop
+let i = 1;
+let total = 0;
+while (i <= 5) {
+    total = total + i;
+    i = i + 1;
+}
+print(total);
